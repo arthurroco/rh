@@ -1,0 +1,3230 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0624.2136                               -->
+<workbook original-version='18.1' source-build='2022.2.0 (20222.22.0624.2136)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <CustomReferenceLineTooltips />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='all'>
+      <format attr='font-family' value='Calibri' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Colaboradores' inline='true' name='federated.0uggmc80g1k81910ci2xf1euzgtd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='criaMassa' name='excel-direct.1b1a1zm1rz2o1g14hcons04cwrw8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/DiversidadeEmDados/criaMassa.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1b1a1zm1rz2o1g14hcons04cwrw8' name='Colaboradores' table='[Colaboradores$]' type='table'>
+          <columns gridOrigin='A1:X2031:no:A1:X2031:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id_empresa_fk' ordinal='0' />
+            <column datatype='string' name='empresa' ordinal='1' />
+            <column datatype='integer' name='id_matricula_pk' ordinal='2' />
+            <column datatype='boolean' name='flg_ativo' ordinal='3' />
+            <column datatype='integer' name='id_pessoa_fk' ordinal='4' />
+            <column datatype='string' name='nome' ordinal='5' />
+            <column datatype='integer' name='id_sobrenome_fk' ordinal='6' />
+            <column datatype='string' name='sobrenome' ordinal='7' />
+            <column datatype='string' name='colaborador' ordinal='8' />
+            <column datatype='string' name='id_genero_fk' ordinal='9' />
+            <column datatype='string' name='genero' ordinal='10' />
+            <column datatype='integer' name='id_raca_fk' ordinal='11' />
+            <column datatype='string' name='raça' ordinal='12' />
+            <column datatype='date' name='data_nascimento' ordinal='13' />
+            <column datatype='integer' name='id_escolaridade_fk' ordinal='14' />
+            <column datatype='string' name='escolaridade' ordinal='15' />
+            <column datatype='integer' name='id_area_fk' ordinal='16' />
+            <column datatype='string' name='area' ordinal='17' />
+            <column datatype='integer' name='id_cargo_fk' ordinal='18' />
+            <column datatype='string' name='cargo' ordinal='19' />
+            <column datatype='integer' name='id_nivel_fk' ordinal='20' />
+            <column datatype='string' name='nivel' ordinal='21' />
+            <column datatype='integer' name='salario' ordinal='22' />
+            <column datatype='string' name='Queries' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1b1a1zm1rz2o1g14hcons04cwrw8' name='Colaboradores' table='[Colaboradores$]' type='table'>
+          <columns gridOrigin='A1:X2031:no:A1:X2031:0' header='yes' outcome='6'>
+            <column datatype='integer' name='id_empresa_fk' ordinal='0' />
+            <column datatype='string' name='empresa' ordinal='1' />
+            <column datatype='integer' name='id_matricula_pk' ordinal='2' />
+            <column datatype='boolean' name='flg_ativo' ordinal='3' />
+            <column datatype='integer' name='id_pessoa_fk' ordinal='4' />
+            <column datatype='string' name='nome' ordinal='5' />
+            <column datatype='integer' name='id_sobrenome_fk' ordinal='6' />
+            <column datatype='string' name='sobrenome' ordinal='7' />
+            <column datatype='string' name='colaborador' ordinal='8' />
+            <column datatype='string' name='id_genero_fk' ordinal='9' />
+            <column datatype='string' name='genero' ordinal='10' />
+            <column datatype='integer' name='id_raca_fk' ordinal='11' />
+            <column datatype='string' name='raça' ordinal='12' />
+            <column datatype='date' name='data_nascimento' ordinal='13' />
+            <column datatype='integer' name='id_escolaridade_fk' ordinal='14' />
+            <column datatype='string' name='escolaridade' ordinal='15' />
+            <column datatype='integer' name='id_area_fk' ordinal='16' />
+            <column datatype='string' name='area' ordinal='17' />
+            <column datatype='integer' name='id_cargo_fk' ordinal='18' />
+            <column datatype='string' name='cargo' ordinal='19' />
+            <column datatype='integer' name='id_nivel_fk' ordinal='20' />
+            <column datatype='string' name='nivel' ordinal='21' />
+            <column datatype='integer' name='salario' ordinal='22' />
+            <column datatype='string' name='Queries' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X2031:no:A1:X2031:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_empresa_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_empresa_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_empresa_fk</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>empresa</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[empresa]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>empresa</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_matricula_pk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_matricula_pk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_matricula_pk</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flg_ativo</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[flg_ativo]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>flg_ativo</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_pessoa_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_pessoa_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_pessoa_fk</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[nome]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>nome</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_sobrenome_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_sobrenome_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_sobrenome_fk</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sobrenome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sobrenome]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>sobrenome</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>colaborador</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[colaborador]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>colaborador</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_genero_fk</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[id_genero_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_genero_fk</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genero</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[genero]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>genero</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_raca_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_raca_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_raca_fk</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>raça</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[raça]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>raça</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_nascimento</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[data_nascimento]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>data_nascimento</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_escolaridade_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_escolaridade_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_escolaridade_fk</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>escolaridade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[escolaridade]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>escolaridade</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_area_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_area_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_area_fk</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_cargo_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_cargo_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_cargo_fk</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cargo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[cargo]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>cargo</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id_nivel_fk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id_nivel_fk]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>id_nivel_fk</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nivel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[nivel]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>nivel</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>salario</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[salario]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>salario</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Queries</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Queries]</local-name>
+            <parent-name>[Colaboradores]</parent-name>
+            <remote-alias>Queries</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]&quot;' value='Qtde' />
+        </aliases>
+      </column>
+      <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+      </column>
+      <column caption='SDI' datatype='real' name='[Calculation_1909526250871201793]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1-[Evenness (cópia)_472596495082115082]' />
+      </column>
+      <column caption='Richness' datatype='integer' name='[Calculation_319192632395714561]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Raça (grupo)])' />
+      </column>
+      <column caption='Low evenness' datatype='real' default-format='p0.00%' name='[Calculation_319192632402825219]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])}' />
+      </column>
+      <column caption='Total' datatype='integer' name='[Calculation_472596495016501255]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{EXCLUDE [Raça (grupo)], [genero]:COUNTD([id_matricula_pk])}' />
+      </column>
+      <column caption='Evenness' datatype='real' name='[Calculation_472596495080140809]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX({INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])})' />
+      </column>
+      <column caption='Total [%]' datatype='integer' name='[Calculation_554224237536985096]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX(1)' />
+      </column>
+      <column caption='Color Diversity [%]' datatype='real' name='[Color Diversity (cópia)_554224237535629317]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;    IF [id_raca_fk] &lt;&gt; 2&#13;&#10;        THEN 1&#13;&#10;        ELSE 0&#13;&#10;    END&#13;&#10;) / [Calculation_1880815801691922432]' />
+      </column>
+      <column caption='Total de colaboradores [%]' datatype='real' default-format='p0.00%' name='[Cálculo1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1880815801691922432] / TOTAL([Calculation_1880815801691922432])'>
+          <table-calc ordering-type='Columns' />
+        </calculation>
+      </column>
+      <column caption='Evenness square' datatype='real' name='[Evenness (cópia)_472596495082115082]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_472596495080140809]^2' />
+      </column>
+      <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+          <bin default-name='false' value='&quot;Black&quot;'>
+            <value>&quot;Negro(a)&quot;</value>
+            <value>&quot;Pardo(a)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+            <value>&quot;Amarelo(a)&quot;</value>
+            <value>&quot;Vermelho(a)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;White&quot;'>
+            <value>&quot;Branco(a)&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Colaboradores' datatype='table' name='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' role='measure' type='quantitative' />
+      <column caption='Department' datatype='string' name='[area]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Comunicação &amp; Marketing&quot;' value='Comunication &amp; Marketing' />
+          <alias key='&quot;Recursos Humanos&quot;' value='Human Resources' />
+          <alias key='&quot;Tecnologia da Informação&quot;' value='Information Technology' />
+          <alias key='&quot;Vendas&quot;' value='Sales' />
+        </aliases>
+      </column>
+      <column caption='Cargo' datatype='string' name='[cargo]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Analista&quot;' value='Analyst' />
+          <alias key='&quot;Coordenador&quot;' value='Coordinator' />
+          <alias key='&quot;Diretor&quot;' value='Director' />
+          <alias key='&quot;Especialista&quot;' value='Specialist' />
+          <alias key='&quot;Estagiário&quot;' value='Intern' />
+          <alias key='&quot;Gerente&quot;' value='Manager' />
+        </aliases>
+      </column>
+      <column caption='Employee' datatype='string' hidden='true' name='[colaborador]' role='dimension' type='nominal' />
+      <column caption='Data Aniversario' datatype='date' hidden='true' name='[data_aniversario]' role='dimension' type='ordinal' />
+      <column caption='Company' datatype='string' name='[empresa]' role='dimension' type='nominal' />
+      <column caption='Escolaridade' datatype='string' hidden='true' name='[escolaridade]' role='dimension' type='nominal' />
+      <column caption='Active?' datatype='boolean' name='[flg_ativo]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='true' value='Yes' />
+        </aliases>
+      </column>
+      <column caption='Gender' datatype='string' name='[genero]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Feminino&quot;' value='Female' />
+          <alias key='&quot;Masculino&quot;' value='Male' />
+        </aliases>
+      </column>
+      <column caption='Id Area' datatype='integer' hidden='true' name='[id_area]' role='dimension' type='ordinal' />
+      <column caption='Id Cargo' datatype='integer' hidden='true' name='[id_cargo]' role='dimension' type='ordinal' />
+      <column datatype='integer' hidden='true' name='[id_empresa_fk]' role='measure' type='quantitative' />
+      <column caption='Id Escolaridade' datatype='integer' hidden='true' name='[id_escolaridade]' role='dimension' type='ordinal' />
+      <column caption='Id Genero Fk' datatype='string' hidden='true' name='[id_genero_fk]' role='dimension' type='nominal' />
+      <column caption='Id Nivel' datatype='integer' hidden='true' name='[id_nivel]' role='dimension' type='ordinal' />
+      <column caption='Id Pessoa Fk' datatype='integer' hidden='true' name='[id_pessoa_fk]' role='dimension' type='ordinal' />
+      <column caption='Id Sobrenome Fk' datatype='integer' hidden='true' name='[id_sobrenome_fk]' role='dimension' type='ordinal' />
+      <column caption='Nivel' datatype='string' hidden='true' name='[nivel]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='N/A' />
+        </aliases>
+      </column>
+      <column caption='Name' datatype='string' hidden='true' name='[nome]' role='dimension' type='nominal' />
+      <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+          <alias key='&quot;Branco(a)&quot;' value='White' />
+          <alias key='&quot;Negro(a)&quot;' value='Black' />
+          <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+        </aliases>
+      </column>
+      <column caption='Salary' datatype='integer' hidden='true' name='[salario]' role='measure' type='quantitative' />
+      <column caption='Last name' datatype='string' hidden='true' name='[sobrenome]' role='dimension' type='nominal' />
+      <column caption='Square Sum' datatype='real' name='[teste (cópia)_472596495011692550]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='({INCLUDE [Raça (grupo)]:COUNT([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]: COUNT([id_matricula_pk])})^2' />
+      </column>
+      <column-instance column='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_554224237536985096]' derivation='Max' name='[max:Calculation_554224237536985096:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cargo]' derivation='None' name='[none:cargo:nk]' pivot='key' type='nominal' />
+      <column-instance column='[empresa]' derivation='None' name='[none:empresa:nk]' pivot='key' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' derivation='Count' name='[pcto:cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' />
+          <order field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[pcto:usr:Calculation_1880815801691922432:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Calculation_319192632402825219]' derivation='Sum' name='[sum:Calculation_319192632402825219:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_554224237536985096]' derivation='Sum' name='[sum:Calculation_554224237536985096:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[usr:Calculation_1880815801691922432:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1909526250871201793]' derivation='User' name='[usr:Calculation_1909526250871201793:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_319192632402825219]' derivation='User' name='[usr:Calculation_319192632402825219:qk:1]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_554224237536985096]' derivation='User' name='[usr:Calculation_554224237536985096:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Color Diversity (cópia)_554224237535629317]' derivation='User' name='[usr:Color Diversity (cópia)_554224237535629317:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cálculo1]' derivation='User' name='[usr:Cálculo1:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' />
+      </column-instance>
+      <drill-paths>
+        <drill-path name='Departments'>
+          <field>[empresa]</field>
+          <field>[area]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#45c2cc'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]&quot;</bucket>
+            </map>
+            <map to='#45c2cc'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Color Diversity (cópia)_554224237535629317:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[max:Calculation_554224237523140609:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk:1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[max:Calculation_554224237536763911:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_554224237536763911:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_554224237536985096:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_554224237534912516:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:Calculation_472596494999326721:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_554224237523402755:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_472596494999326721:qk:1]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632402825219:qk:1]&quot;</bucket>
+            </map>
+            <map to='#efefef'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[max:Calculation_554224237523402755:qk]&quot;</bucket>
+            </map>
+            <map to='#efefef'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[max:Calculation_554224237536985096:qk]&quot;</bucket>
+            </map>
+            <map to='#efefef'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_554224237536985096:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[__tableau_internal_object_id__].[pcto:cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Cálculo1:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:cargo:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Presidente&quot;</bucket>
+            <bucket>&quot;Vice-Presidente&quot;</bucket>
+            <bucket>&quot;Secretária Bilíngue&quot;</bucket>
+            <bucket>&quot;Diretor&quot;</bucket>
+            <bucket>&quot;Gerente&quot;</bucket>
+            <bucket>&quot;Coordenador&quot;</bucket>
+            <bucket>&quot;Especialista&quot;</bucket>
+            <bucket>&quot;Analista&quot;</bucket>
+            <bucket>&quot;Trainee&quot;</bucket>
+            <bucket>&quot;Estagiário&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <filter class='categorical' column='[flg_ativo]' filter-group='2'>
+        <groupfilter function='member' level='[flg_ativo]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Colaboradores' id='Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6'>
+            <properties context=''>
+              <relation connection='excel-direct.1b1a1zm1rz2o1g14hcons04cwrw8' name='Colaboradores' table='[Colaboradores$]' type='table'>
+                <columns gridOrigin='A1:X2031:no:A1:X2031:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='id_empresa_fk' ordinal='0' />
+                  <column datatype='string' name='empresa' ordinal='1' />
+                  <column datatype='integer' name='id_matricula_pk' ordinal='2' />
+                  <column datatype='boolean' name='flg_ativo' ordinal='3' />
+                  <column datatype='integer' name='id_pessoa_fk' ordinal='4' />
+                  <column datatype='string' name='nome' ordinal='5' />
+                  <column datatype='integer' name='id_sobrenome_fk' ordinal='6' />
+                  <column datatype='string' name='sobrenome' ordinal='7' />
+                  <column datatype='string' name='colaborador' ordinal='8' />
+                  <column datatype='string' name='id_genero_fk' ordinal='9' />
+                  <column datatype='string' name='genero' ordinal='10' />
+                  <column datatype='integer' name='id_raca_fk' ordinal='11' />
+                  <column datatype='string' name='raça' ordinal='12' />
+                  <column datatype='date' name='data_nascimento' ordinal='13' />
+                  <column datatype='integer' name='id_escolaridade_fk' ordinal='14' />
+                  <column datatype='string' name='escolaridade' ordinal='15' />
+                  <column datatype='integer' name='id_area_fk' ordinal='16' />
+                  <column datatype='string' name='area' ordinal='17' />
+                  <column datatype='integer' name='id_cargo_fk' ordinal='18' />
+                  <column datatype='string' name='cargo' ordinal='19' />
+                  <column datatype='integer' name='id_nivel_fk' ordinal='20' />
+                  <column datatype='string' name='nivel' ordinal='21' />
+                  <column datatype='integer' name='salario' ordinal='22' />
+                  <column datatype='string' name='Queries' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='% Diversity per job level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Este gráfico</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column caption='SDI' datatype='real' name='[Calculation_1909526250871201793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1-[Evenness (cópia)_472596495082115082]' />
+            </column>
+            <column caption='Evenness' datatype='real' name='[Calculation_472596495080140809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX({INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])})' />
+            </column>
+            <column caption='Total [%]' datatype='integer' name='[Calculation_554224237536985096]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX(1)' />
+            </column>
+            <column caption='Color Diversity [%]' datatype='real' name='[Color Diversity (cópia)_554224237535629317]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(&#13;&#10;    IF [id_raca_fk] &lt;&gt; 2&#13;&#10;        THEN 1&#13;&#10;        ELSE 0&#13;&#10;    END&#13;&#10;) / [Calculation_1880815801691922432]' />
+            </column>
+            <column caption='Evenness square' datatype='real' name='[Evenness (cópia)_472596495082115082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_472596495080140809]^2' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Cargo' datatype='string' name='[cargo]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Analista&quot;' value='Analyst' />
+                <alias key='&quot;Coordenador&quot;' value='Coordinator' />
+                <alias key='&quot;Diretor&quot;' value='Director' />
+                <alias key='&quot;Especialista&quot;' value='Specialist' />
+                <alias key='&quot;Estagiário&quot;' value='Intern' />
+                <alias key='&quot;Gerente&quot;' value='Manager' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[id_raca_fk]' role='measure' type='quantitative' />
+            <column-instance column='[cargo]' derivation='None' name='[none:cargo:nk]' pivot='key' type='nominal' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1909526250871201793]' derivation='User' name='[usr:Calculation_1909526250871201793:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_554224237536985096]' derivation='User' name='[usr:Calculation_554224237536985096:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Color Diversity (cópia)_554224237535629317]' derivation='User' name='[usr:Color Diversity (cópia)_554224237535629317:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]&quot;' user:op='manual' />
+          </filter>
+          <manual-sort column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_554224237536985096:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Color Diversity (cópia)_554224237535629317:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' field-type='quantitative' max='1.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' scope='cols' value='false' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Color Diversity (cópia)_554224237535629317:qk]' value='p0%' />
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Color Diversity (cópia)_554224237535629317:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='p0.00%' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]' value='11' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1974033117294312' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.8570718765258789' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]</rows>
+        <cols>([federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values] + [federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk])</cols>
+      </table>
+      <simple-id uuid='{7135CB0D-5E1F-4768-A465-B6EF8DD45875}' />
+    </worksheet>
+    <worksheet name='Company makeup: gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#898989'>&lt;</run>
+            <run bold='true' fontcolor='#898989'>Sheet Name</run>
+            <run bold='true' fontcolor='#898989'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column caption='Total' datatype='integer' name='[Calculation_472596495016501255]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{EXCLUDE [Raça (grupo)], [genero]:COUNTD([id_matricula_pk])}' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[Calculation_472596495016501255]' derivation='Attribute' name='[attr:Calculation_472596495016501255:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[genero]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Feminino&quot;' value='Female' />
+                <alias key='&quot;Masculino&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column-instance column='[genero]' derivation='None' name='[none:genero:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[pcto:usr:Calculation_1880815801691922432:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[usr:Calculation_1880815801691922432:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' value='p0%' />
+            <format attr='text-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' value='left' />
+            <format attr='vertical-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' value='bottom' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='216' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='band-color' scope='rows' value='#333333' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='vertical-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='bottom' />
+            <format attr='text-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='right' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='11' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='band-color' scope='rows' value='#333333' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]' />
+              <tooltip column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:Calculation_472596495016501255:qk]' />
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>There are </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]>]]></run>
+                <run fontcolor='#787878'> (</run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]>]]></run>
+                <run fontcolor='#787878'>) of </run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]> ]]></run>
+                <run fontcolor='#787878'>people of a total of </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:Calculation_472596495016501255:qk]>]]></run>
+                <run fontcolor='#787878'> employees.</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>&lt;</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='bottom' />
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{F67A7C94-D4CE-47FB-AC3D-A26D04B1769D}' />
+    </worksheet>
+    <worksheet name='Company makeup: race'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#898989'>&lt;</run>
+            <run bold='true' fontcolor='#898989'>Sheet Name</run>
+            <run bold='true' fontcolor='#898989'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column caption='Total' datatype='integer' name='[Calculation_472596495016501255]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{EXCLUDE [Raça (grupo)], [genero]:COUNTD([id_matricula_pk])}' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[Calculation_472596495016501255]' derivation='Attribute' name='[attr:Calculation_472596495016501255:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[genero]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Feminino&quot;' value='Female' />
+                <alias key='&quot;Masculino&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[pcto:usr:Calculation_1880815801691922432:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[usr:Calculation_1880815801691922432:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;Black&quot;</bucket>
+              <bucket>&quot;Asian&quot;</bucket>
+              <bucket>&quot;Native indian&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' value='p0%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='216' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='band-color' scope='rows' value='#1b1b1b' />
+            <format attr='background-color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='right' />
+            <format attr='vertical-align' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='bottom' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='11' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='band-color' scope='rows' value='#1b1b1b' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]' />
+              <tooltip column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:Calculation_472596495016501255:qk]' />
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>There are </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]>]]></run>
+                <run fontcolor='#787878'> (</run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]>]]></run>
+                <run fontcolor='#787878'>) of </run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]> ]]></run>
+                <run fontcolor='#787878'>people of a total of </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:Calculation_472596495016501255:qk]>]]></run>
+                <run fontcolor='#787878'> employees.</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>&lt;</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>[federated.0uggmc80g1k81910ci2xf1euzgtd].[pcto:usr:Calculation_1880815801691922432:qk:2]</run>
+                <run bold='true' fontcolor='#ffffff' fontsize='36'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='bottom' />
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5E7C965C-A4BD-4B82-A6A6-D060390ADDFF}' />
+    </worksheet>
+    <worksheet name='Headcount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#45c2cc'>&lt;</run>
+            <run fontcolor='#45c2cc'>Sheet Name</run>
+            <run fontcolor='#45c2cc'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[usr:Calculation_1880815801691922432:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='11' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-size' value='18' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>There are </run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]> ]]></run>
+                <run fontcolor='#787878'>employees.</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='18'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#45c2cc' fontsize='12'>Headcount</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7C9300F9-F9CB-42CF-A6DB-DA5B5AD4A02F}' />
+    </worksheet>
+    <worksheet name='Low Evenness'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontalignment='2'>Evenness - free from variations, equal in measure or quantity.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Low evenness' datatype='real' default-format='p0.00%' name='[Calculation_319192632402825219]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])}' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Department' datatype='string' name='[area]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Comunicação &amp; Marketing&quot;' value='Comunication &amp; Marketing' />
+                <alias key='&quot;Recursos Humanos&quot;' value='Human Resources' />
+                <alias key='&quot;Tecnologia da Informação&quot;' value='Information Technology' />
+                <alias key='&quot;Vendas&quot;' value='Sales' />
+              </aliases>
+            </column>
+            <column caption='Company' datatype='string' name='[empresa]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[empresa]' derivation='None' name='[none:empresa:nk]' pivot='key' type='nominal' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_319192632402825219]' derivation='Sum' name='[sum:Calculation_319192632402825219:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='width' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' value='148' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='16' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:area:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:area:nk]' value='11' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-color' id='refline0' value='#45c2cc' />
+            <format attr='stroke-size' id='refline0' value='5' />
+            <format attr='background-color' id='refline0' value='#000000' />
+            <format attr='color' id='refline0' value='#45c2cc' />
+            <format attr='font-weight' id='refline0' value='bold' />
+            <format attr='text-format' id='refline0' value='p0.00%' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]' enable-instant-analytics='true' formula='average' id='refline0' label='High evenness: &lt;Value&gt;' label-type='custom' probability='95' scope='per-table' tooltip='The best evenness should be: &lt;Value&gt;' tooltip-type='custom' value-column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#c0c0c0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk] / [federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)])</rows>
+        <cols>[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:Calculation_319192632402825219:qk]</cols>
+      </table>
+      <simple-id uuid='{E407961B-A18E-48E8-89BB-761DB6E18FD3}' />
+    </worksheet>
+    <worksheet name='Richness'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#45c2cc' fontsize='18'>&lt;</run>
+            <run fontcolor='#45c2cc' fontsize='18'>Sheet Name</run>
+            <run fontcolor='#45c2cc' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Richness' datatype='integer' name='[Calculation_319192632395714561]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Raça (grupo)])' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_319192632395714561]' derivation='User' name='[usr:Calculation_319192632395714561:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Richness - number of differing elements, variety of characteristics. In our case, we have </run>
+                <run bold='true' fontcolor='#000000'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]>]]></run>
+                <run fontcolor='#787878'>.</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='18'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#45c2cc' fontsize='12'>Richness</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7DDA4453-F0B0-4FD2-A127-F04C6708B758}' />
+    </worksheet>
+    <worksheet name='Richness graph'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontalignment='2'>Richness - number of differing elements, variety of characteristics</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1880815801691922432]' derivation='User' name='[usr:Calculation_1880815801691922432:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <size column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]' />
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' />
+              <lod column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>There are </run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1880815801691922432:qk]> ]]></run>
+                <run fontcolor='#787878'>of </run>
+                <run bold='true'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]> ]]></run>
+                <run fontcolor='#787878'>people.</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{070D5426-FDFB-457F-86CA-4360C49949CD}' />
+    </worksheet>
+    <worksheet name='SDI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#45c2cc' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#45c2cc' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#45c2cc' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='SDI' datatype='real' name='[Calculation_1909526250871201793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1-[Evenness (cópia)_472596495082115082]' />
+            </column>
+            <column caption='Evenness' datatype='real' name='[Calculation_472596495080140809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX({INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])})' />
+            </column>
+            <column caption='Evenness square' datatype='real' name='[Evenness (cópia)_472596495082115082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_472596495080140809]^2' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1909526250871201793]' derivation='User' name='[usr:Calculation_1909526250871201793:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#ffffff' fontsize='18'><![CDATA[<[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontcolor='#45c2cc' fontsize='12'>SDI</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true' />
+        <cols />
+      </table>
+      <simple-id uuid='{B8C1027B-D35D-4615-A4A7-673CE7C39916}' />
+    </worksheet>
+    <worksheet name='Simpson’s Diversity Index (SDI)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontalignment='2'>Richness the bigger the better. Evenness the closer to 100% the better.
+</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='SDI' datatype='real' name='[Calculation_1909526250871201793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1-[Evenness (cópia)_472596495082115082]' />
+            </column>
+            <column caption='Richness' datatype='integer' name='[Calculation_319192632395714561]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Raça (grupo)])' />
+            </column>
+            <column caption='Evenness' datatype='real' name='[Calculation_472596495080140809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX({INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])})' />
+            </column>
+            <column caption='Evenness square' datatype='real' name='[Evenness (cópia)_472596495082115082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_472596495080140809]^2' />
+            </column>
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[Calculation_1909526250871201793]' derivation='User' name='[usr:Calculation_1909526250871201793:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_319192632395714561]' derivation='User' name='[usr:Calculation_319192632395714561:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' max='1.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='auto-subtitle' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' scope='cols' value='Evenness' />
+            <format attr='tick-color' value='#333333' />
+            <format attr='stroke-color' value='#333333' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-color' data-class='total' value='#333333' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='p0%' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='11' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-color' data-class='total' value='#333333' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' value='#3333334b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-color' value='#333333' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-color' value='#333333' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.9502761363983154' />
+                <format attr='mark-color' value='#45c2cc' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#33333367' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]</rows>
+        <cols>[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]</cols>
+      </table>
+      <simple-id uuid='{F93C85C9-1BA2-449E-A888-611DC065E305}' />
+    </worksheet>
+    <worksheet name='Table of details'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&lt;</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>Sheet Name</run>
+            <run bold='true' fontcolor='#ffffff' fontsize='18'>&gt;</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>The square sum correspond to the weighted average of our proportional abundances, with the proportional abundances as weights.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Colaboradores' name='federated.0uggmc80g1k81910ci2xf1euzgtd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uggmc80g1k81910ci2xf1euzgtd'>
+            <column caption='Total de colaboradores' datatype='integer' name='[Calculation_1880815801691922432]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([id_matricula_pk])' />
+            </column>
+            <column caption='SDI' datatype='real' name='[Calculation_1909526250871201793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1-[Evenness (cópia)_472596495082115082]' />
+            </column>
+            <column caption='Richness' datatype='integer' name='[Calculation_319192632395714561]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Raça (grupo)])' />
+            </column>
+            <column caption='Evenness' datatype='real' name='[Calculation_472596495080140809]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX({INCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]:COUNTD([id_matricula_pk])})' />
+            </column>
+            <column caption='Total de colaboradores [%]' datatype='real' default-format='p0.00%' name='[Cálculo1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1880815801691922432] / TOTAL([Calculation_1880815801691922432])'>
+                <table-calc ordering-type='Columns' />
+              </calculation>
+            </column>
+            <column caption='Evenness square' datatype='real' name='[Evenness (cópia)_472596495082115082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_472596495080140809]^2' />
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Colaboradores' datatype='integer' name='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' role='measure' type='quantitative' />
+            <column caption='Race' datatype='string' name='[Raça (grupo)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[raça]' new-bin='true'>
+                <bin default-name='false' value='&quot;Black&quot;'>
+                  <value>&quot;Negro(a)&quot;</value>
+                  <value>&quot;Pardo(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others (Asian &amp; native indian)&quot;'>
+                  <value>&quot;Amarelo(a)&quot;</value>
+                  <value>&quot;Vermelho(a)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;White&quot;'>
+                  <value>&quot;Branco(a)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Colaboradores' datatype='table' name='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]' pivot='key' type='quantitative' />
+            <column caption='Department' datatype='string' name='[area]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Comunicação &amp; Marketing&quot;' value='Comunication &amp; Marketing' />
+                <alias key='&quot;Recursos Humanos&quot;' value='Human Resources' />
+                <alias key='&quot;Tecnologia da Informação&quot;' value='Information Technology' />
+                <alias key='&quot;Vendas&quot;' value='Sales' />
+              </aliases>
+            </column>
+            <column-instance column='[teste (cópia)_472596495011692550]' derivation='Attribute' name='[attr:teste (cópia)_472596495011692550:qk]' pivot='key' type='quantitative' />
+            <column caption='Cargo' datatype='string' name='[cargo]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Analista&quot;' value='Analyst' />
+                <alias key='&quot;Coordenador&quot;' value='Coordinator' />
+                <alias key='&quot;Diretor&quot;' value='Director' />
+                <alias key='&quot;Especialista&quot;' value='Specialist' />
+                <alias key='&quot;Estagiário&quot;' value='Intern' />
+                <alias key='&quot;Gerente&quot;' value='Manager' />
+              </aliases>
+            </column>
+            <column caption='Company' datatype='string' name='[empresa]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[genero]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Feminino&quot;' value='Female' />
+                <alias key='&quot;Masculino&quot;' value='Male' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[id_matricula_pk]' role='measure' type='quantitative' />
+            <column-instance column='[area]' derivation='None' name='[none:area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[cargo]' derivation='None' name='[none:cargo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[empresa]' derivation='None' name='[none:empresa:nk]' pivot='key' type='nominal' />
+            <column-instance column='[genero]' derivation='None' name='[none:genero:nk]' pivot='key' type='nominal' />
+            <column caption='Raça' datatype='string' name='[raça]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Amarelo(a)&quot;' value='Asian' />
+                <alias key='&quot;Branco(a)&quot;' value='White' />
+                <alias key='&quot;Negro(a)&quot;' value='Black' />
+                <alias key='&quot;Vermelho(a)&quot;' value='Native indian' />
+              </aliases>
+            </column>
+            <column-instance column='[teste (cópia)_472596495011692550]' derivation='Sum' name='[sum:teste (cópia)_472596495011692550:qk]' pivot='key' type='quantitative' />
+            <column caption='Square Sum' datatype='real' name='[teste (cópia)_472596495011692550]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='({INCLUDE [Raça (grupo)]:COUNT([id_matricula_pk])} / {EXCLUDE [Raça (grupo)]: COUNT([id_matricula_pk])})^2' />
+            </column>
+            <column-instance column='[Calculation_1909526250871201793]' derivation='User' name='[usr:Calculation_1909526250871201793:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_319192632395714561]' derivation='User' name='[usr:Calculation_319192632395714561:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cálculo1]' derivation='User' name='[usr:Cálculo1:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[__tableau_internal_object_id__].[cnt:Colaboradores_7FB22442019F47139EF8DE8A6A9EAAD6:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_319192632395714561:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[attr:teste (cópia)_472596495011692550:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:teste (cópia)_472596495011692550:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Cálculo1:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;White&quot;</bucket>
+              <bucket>&quot;Black&quot;</bucket>
+              <bucket>&quot;Others (Asian &amp; native indian)&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[sum:teste (cópia)_472596495011692550:qk]' value='p0.00%' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' value='#ffffff' />
+            <format attr='text-format' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[usr:Calculation_1909526250871201793:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-size' value='11' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:area:nk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:area:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]' value='#ffffff' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='#ffffff' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]' value='11' />
+            <format attr='font-size' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' value='11' />
+            <format attr='color' field='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0uggmc80g1k81910ci2xf1euzgtd].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk] / ([federated.0uggmc80g1k81910ci2xf1euzgtd].[none:area:nk] / ([federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk] / ([federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk] / [federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]))))</rows>
+        <cols>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{A82C217F-226C-4BA5-A7E2-3C659C83DB31}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard about diversity &amp; inclusion'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#000000' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='52' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+            <zone friendly-name='Main' h='100000' id='1' param='vert' type-v2='layout-flow' w='100000' x='0' y='0'>
+              <zone fixed-size='80' friendly-name='Header' h='8929' id='11' is-fixed='true' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+                <zone fixed-size='213' friendly-name='Logotipo' h='8929' id='12' is-fixed='true' is-scaled='1' param='C:/Users/arthu/Pictures/BI4ALL_logo_color_alt1.png' type-v2='bitmap' w='13778' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='39' friendly-name='Blank' h='8929' id='15' is-fixed='true' type-v2='empty' w='2930' x='13778' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' friendly-name='Title' h='8929' id='13' type-v2='text' w='60224' x='16708' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#45c2cc' fontsize='28'>&lt;</run>
+                    <run bold='true' fontcolor='#45c2cc' fontsize='28'>Sheet Name</run>
+                    <run bold='true' fontcolor='#45c2cc' fontsize='28'>&gt;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='362' friendly-name='Blank' h='8929' id='14' is-fixed='true' type-v2='empty' w='23068' x='76932' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+              <zone h='91071' id='6' param='horz' type-v2='layout-flow' w='100000' x='0' y='8929'>
+                <zone fixed-size='350' friendly-name='Left' h='91071' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='21820' x='0' y='8929'>
+                  <zone fixed-size='80' friendly-name='Big numbers' h='8929' id='20' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='21820' x='0' y='8929'>
+                    <zone friendly-name='Headcount' h='8928' id='33' param='vert' type-v2='layout-flow' w='7294' x='0' y='8929'>
+                      <zone h='7813' id='22' name='Headcount' show-title='false' w='6796' x='249' y='9375'>
+                        <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='2' friendly-name='Blank' h='223' id='34' is-fixed='true' type-v2='empty' w='6796' x='249' y='17188'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone friendly-name='Richness' h='8928' id='28' param='vert' type-v2='layout-flow' w='7295' x='7294' y='8929'>
+                      <zone h='7813' id='24' name='Richness' show-title='false' w='6797' x='7543' y='9375'>
+                        <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='2' friendly-name='Blank' h='223' id='29' is-fixed='true' type-v2='empty' w='6797' x='7543' y='17188'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone friendly-name='SDI' h='8928' id='26' param='vert' type-v2='layout-flow' w='7231' x='14589' y='8929'>
+                      <zone h='7813' id='25' name='SDI' show-title='false' w='6733' x='14838' y='9375'>
+                        <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='2' friendly-name='Blank' h='223' id='27' is-fixed='true' type-v2='empty' w='6733' x='14838' y='17188'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='margin-top' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='82142' id='35' param='vert' type-v2='layout-flow' w='21820' x='0' y='17858'>
+                    <zone friendly-name='Company makeup: race' h='41629' id='23' param='vert' type-v2='layout-flow' w='21820' x='0' y='17858'>
+                      <zone forceUpdate='true' h='3348' id='37' type-v2='text' w='21198' x='311' y='18416'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontsize='18'>Company makeup: race</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone h='37164' id='9' name='Company makeup: race' show-title='false' w='21198' x='311' y='21764'>
+                        <layout-cache cell-count-h='3' cell-count-w='1' non-cell-size-w='216' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#45c2cc' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone friendly-name='Company makeup: gender' h='40513' id='17' param='vert' type-v2='layout-flow' w='21820' x='0' y='59487'>
+                      <zone forceUpdate='true' h='3348' id='38' type-v2='text' w='21198' x='311' y='60045'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontsize='18'>Company makeup: gender</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone h='36048' id='18' name='Company makeup: gender' show-title='false' w='21198' x='311' y='63393'>
+                        <layout-cache cell-count-h='2' cell-count-w='1' non-cell-size-w='216' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#45c2cc' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='0' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Content' h='91071' id='10' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='78180' x='21820' y='8929'>
+                  <zone friendly-name='Richness &amp; Evenness' h='30357' id='41' param='horz' type-v2='layout-flow' w='78180' x='21820' y='8929'>
+                    <zone fixed-size='242' friendly-name='Richness' h='30357' id='43' is-fixed='true' param='vert' type-v2='layout-flow' w='15586' x='21820' y='8929'>
+                      <zone h='3348' id='45' type-v2='text' w='14964' x='22131' y='9487'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontsize='18'>Richness</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#c0c0c0' />
+                          <format attr='border-style' value='solid' />
+                          <format attr='border-width' value='1' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#c0c0c0' />
+                        </zone-style>
+                      </zone>
+                      <zone h='25893' id='44' name='Richness graph' show-caption='true' show-title='false' w='14964' x='22131' y='12835'>
+                        <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#c0c0c0' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone friendly-name='Evenness' h='30357' id='39' param='vert' type-v2='layout-flow' w='62594' x='37406' y='8929'>
+                      <zone forceUpdate='true' h='3348' id='40' type-v2='text' w='61972' x='37717' y='9487'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontsize='18'>Evenness</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#c0c0c0' />
+                        </zone-style>
+                      </zone>
+                      <zone h='11942' id='30' name='Low Evenness' show-caption='true' show-title='false' w='61972' x='37717' y='12835'>
+                        <layout-cache fixed-size-h='103' minwidth='408' type-h='fixed' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='margin-top' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#c0c0c0' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone friendly-name='Simpson’s Diversity Index' h='30357' id='46' param='vert' type-v2='layout-flow' w='78180' x='21820' y='39286'>
+                    <zone forceUpdate='true' h='3348' id='48' type-v2='text' w='77558' x='22131' y='39844'>
+                      <formatted-text>
+                        <run bold='true' fontcolor='#ffffff' fontsize='18'>Simpson’s Diversity Index (SDI)</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='0' />
+                        <format attr='background-color' value='#45c2cc' />
+                      </zone-style>
+                    </zone>
+                    <zone h='25893' id='47' name='Simpson’s Diversity Index (SDI)' show-caption='true' show-title='false' w='77558' x='22131' y='43192'>
+                      <layout-cache minheight='182' minwidth='147' type-h='scalable' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='0' />
+                      </zone-style>
+                    </zone>
+                    <zone-style>
+                      <format attr='border-color' value='#45c2cc' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone friendly-name='% Diversity &amp; Table' h='30357' id='49' param='horz' type-v2='layout-flow' w='78180' x='21820' y='69643'>
+                    <zone friendly-name='% Diversity per job level' h='30357' id='54' param='vert' type-v2='layout-flow' w='42019' x='21820' y='69643'>
+                      <zone forceUpdate='true' friendly-name='Label' h='3348' id='55' type-v2='text' w='41397' x='22131' y='70201'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#ffffff' fontsize='18'>% Diversity per job level</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#45c2cc' />
+                        </zone-style>
+                      </zone>
+                      <zone h='22321' id='50' name='% Diversity per job level' show-title='false' w='41397' x='22131' y='73549'>
+                        <layout-cache fixed-size-h='200' minwidth='220' type-h='fixed' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#45c2cc' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone friendly-name='Table' h='30357' id='56' param='vert' type-v2='layout-flow' w='36161' x='63839' y='69643'>
+                      <zone h='3348' id='57' type-v2='text' w='35539' x='64150' y='70201'>
+                        <formatted-text>
+                          <run bold='true' fontcolor='#000000' fontsize='18'>Table of details</run>
+                        </formatted-text>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                          <format attr='background-color' value='#c0c0c0' />
+                        </zone-style>
+                      </zone>
+                      <zone h='25893' id='53' name='Table of details' show-title='false' w='35539' x='64150' y='73549'>
+                        <layout-cache cell-count-w='3' fixed-size-h='5281' non-cell-size-w='400' type-h='fixed' type-w='cell' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='0' />
+                        </zone-style>
+                      </zone>
+                      <zone-style>
+                        <format attr='border-color' value='#c0c0c0' />
+                        <format attr='border-style' value='solid' />
+                        <format attr='border-width' value='1' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='0' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{41AB166C-04E2-43B6-AE76-C358B49DF2EF}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Dashboard about diversity &amp; inclusion' tab-color='#4f779a'>
+      <viewpoints>
+        <viewpoint name='% Diversity per job level' />
+        <viewpoint name='Company makeup: gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Company makeup: race'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Headcount'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Low Evenness'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Richness'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Richness graph'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='SDI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Simpson’s Diversity Index (SDI)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Table of details'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2FDA8EAF-D162-482D-965F-490FB01EC7D9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% Diversity per job level' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='7' param='[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:raça:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6DE42CB9-6829-49C9-95D6-10B6933A490C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Company makeup: gender' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='170'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:raça:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{395A559A-2407-47C2-8832-30CDAAB93573}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Company makeup: race' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='170'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:raça:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{5DAB769E-1B73-49DD-BD5D-BBBB5C23F351}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Headcount' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8C96A866-BD75-4448-8A34-606746218549}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Low Evenness' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FAF4977D-809B-4628-B42F-8A91AE51CF6C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Richness' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='213'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:id_raca:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C7EA229B-D888-4B0F-839A-5B316890B951}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Richness graph' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9D0EF01D-C8DA-4A16-A831-30198448BE68}' />
+    </window>
+    <window class='worksheet' hidden='true' name='SDI' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CB94EE28-E4FC-458B-A2A6-63C71036DB4D}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Simpson’s Diversity Index (SDI)' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='170'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{1343C829-82AF-4D50-BF63-93CC4FCB5A09}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Table of details' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='170'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[:Measure Names]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[Raça (grupo)]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:cargo:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:colaborador:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:empresa:nk]</field>
+            <field>[federated.0uggmc80g1k81910ci2xf1euzgtd].[none:genero:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{096C2CED-8209-45E6-A5D9-018FB2C6BE98}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard about diversity &amp; inclusion' width='192'>
+      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
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
