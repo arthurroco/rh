@@ -1,11 +1,11 @@
 ﻿cd_role;nm_role
 CE;CEO
-VP;Vice President
-DIR;Director
+VP;VICE PRESIDENT
+DIR;DIRECTOR
 SEC;Bilingual Secretary
-INT;Intern
-TRA;Trainee
-ANA;Analyst
-SPEC;Specialist
-COORD;Coordinator
-MAN;Manager
+INT;INTERN
+TRA;TRAINEE
+ANA;ANALYST
+SPEC;SPECIALIST
+COORD;COORDINATOR
+MAN;MANAGER
