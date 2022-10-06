@@ -1,0 +1,4 @@
+id_level_pk	level
+2	Junior
+3	Pleno
+4	Senior

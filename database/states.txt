@@ -1,0 +1,21 @@
+id_country_fk	id_state_pk	state
+2	2	 Lisboa
+2	3	PORTO
+2	4	 Setúbal 
+2	5	AveirO
+2	6	braga
+2	7	Faro
+2	8	Santarém
+2	9	Leiria
+2	10	Coimbra
+2	11	Madeira
+2	12	 ÉVORA
+2	13	Azores
+2	14	Viseu
+2	15	Castelo Branco
+2	16	Beja
+2	17	Portalegre
+2	18	Guarda
+2	19	Vila Real
+2	20	Viana do Castelo
+2	21	Bragança

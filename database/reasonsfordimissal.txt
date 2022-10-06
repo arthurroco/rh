@@ -1,0 +1,10 @@
+id_reason_dimissal_pk	reason_dimissal
+2	None
+3	Career changes
+4	Unhappy
+5	Attendance
+6	performance
+7	 Retiring
+8	gross misconduct
+9	medical issues
+10	maternity leave - did not return

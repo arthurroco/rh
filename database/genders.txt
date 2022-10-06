@@ -1,0 +1,3 @@
+id_gender_pk	id_sufix_gender	gender
+2	F	Female
+3	M	Male

@@ -1,0 +1,7 @@
+id_ethnicity_pk	ethnicity
+2	 white
+3	Black or African American
+4	  Hispanic or LATINO
+5	ASIAN
+6	  american Indian or Alaska Native
+7	Native Hawaiian or Other Pacific Islander

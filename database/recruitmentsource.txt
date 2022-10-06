@@ -1,0 +1,12 @@
+id_recruitment_source_pk	recruitment_source	website
+2	Indeed	http://www.indeed.pt/
+3	Learn4Good	http://www.learn4good.com/jobs/language/english/list/country/portugal/
+4	SAPO Emprego	http://emprego.sapo.pt/
+5	Net Empregos	http://www.net-empregos.com/
+6	Empregos Online	http://www.empregosonline.pt/
+7	Jobs in Lisbon	http://www.jobsinlisbon.com/
+8	Next Station	https://www.nextstation.com/en/portugal
+9	 recommendation of employee	
+10	Google	https://www.google.com/
+11	LinkedIn	https://www.linkedin.com/
+12	Website	

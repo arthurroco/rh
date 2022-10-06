@@ -1,0 +1,13 @@
+id_department_pk	department
+2	 Presidency
+3	Administration
+4	Finance
+5	Human Resource
+6	 Commercial
+7	Operations
+8	Communication & Marketing
+9	Controlling
+10	Audit
+11	Information Technology
+12	Juridical
+13	  Sales

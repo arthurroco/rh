@@ -15,7 +15,23 @@ We've included some open-ended questions that you can explore and try to address
 
 ## About the Challenge
 ### Scope
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae blandit pellentesque, lorem tellus venenatis diam, in tempor quam nulla quis arcu. Etiam viverra quam sed tellus facilisis lacinia. In venenatis blandit augue, sit amet fermentum ante euismod finibus. Proin nec tortor sapien. Sed ac lacus rhoncus, rhoncus nisi eu, condimentum dui. Aenean a tellus lacinia, sodales odio at, maximus ex. Nulla tempor tempus purus nec vulputate. Fusce lectus magna, lobortis vitae dictum vel, euismod et odio. Donec et urna vitae tellus pulvinar auctor ac sit amet sem. Phasellus vel quam rhoncus, viverra metus ut, cursus diam. Aliquam commodo lacus elit, sed convallis quam ornare mollis. Curabitur orci felis, maximus interdum tempor eu, luctus sit amet massa.
+The director of the human resources area wants to have visibility on the company's workforce. For this, he wants a dashboard that brings general numbers such as the number of active employees. This number, he/she wants to see by:
+- Department
+- Salary range
+- Satisfaction rating/grade
+- Hiring date
+- Department
+
+In addition to the overall point of view, he/she wants to view these same numbers by:
+- Gender
+- Ethnicity 
+- Background education
+
+These numbers should answer:
+- Is there any difference in salary between genders?
+- Is there a salary difference between races?
+- Are there any areas where employees are unhappy?
+- Do we have diversity? If so, what is the most diverse department, source of hiring that encourages this and how can we improve. The director suggested that the BI area look at market indicators and adapt them to our dashboard, such as: Richness, Evenness, and Simpson's Diversity Index.
 
 ### Requirements
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae blandit pellentesque, lorem tellus venenatis diam, in tempor quam nulla quis arcu. Etiam viverra quam sed tellus facilisis lacinia. In venenatis blandit augue, sit amet fermentum ante euismod finibus. Proin nec tortor sapien. Sed ac lacus rhoncus, rhoncus nisi eu, condimentum dui. Aenean a tellus lacinia, sodales odio at, maximus ex. Nulla tempor tempus purus nec vulputate. Fusce lectus magna, lobortis vitae dictum vel, euismod et odio. Donec et urna vitae tellus pulvinar auctor ac sit amet sem. Phasellus vel quam rhoncus, viverra metus ut, cursus diam. Aliquam commodo lacus elit, sed convallis quam ornare mollis. Curabitur orci felis, maximus interdum tempor eu, luctus sit amet massa.
