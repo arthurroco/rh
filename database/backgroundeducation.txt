@@ -1,7 +1,0 @@
-id_background_education_pk	background_education
-2	Elementary school
-3	 High school
-4	Undergraduate degree
-5	Graduate school
-6	Master’s degree
-7	Doctorate

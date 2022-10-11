@@ -1,6 +1,0 @@
-id_marital_status_pk	marital_status
-2	single
-3	MarrieD
-4	Widowed 
-5	 Separated 
-6	DIVORCED

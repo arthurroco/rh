@@ -1,2 +1,0 @@
-id_country_pk	country
-2	Portugal

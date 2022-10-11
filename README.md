@@ -33,14 +33,32 @@ These numbers should answer:
 - Are there any areas where employees are unhappy?
 - Do we have diversity? If so, what is the most diverse department, source of hiring that encourages this and how can we improve. The director suggested that the BI area look at market indicators and adapt them to our dashboard, such as: Richness, Evenness, and Simpson's Diversity Index.
 
-### Requirements
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae blandit pellentesque, lorem tellus venenatis diam, in tempor quam nulla quis arcu. Etiam viverra quam sed tellus facilisis lacinia. In venenatis blandit augue, sit amet fermentum ante euismod finibus. Proin nec tortor sapien. Sed ac lacus rhoncus, rhoncus nisi eu, condimentum dui. Aenean a tellus lacinia, sodales odio at, maximus ex. Nulla tempor tempus purus nec vulputate. Fusce lectus magna, lobortis vitae dictum vel, euismod et odio. Donec et urna vitae tellus pulvinar auctor ac sit amet sem. Phasellus vel quam rhoncus, viverra metus ut, cursus diam. Aliquam commodo lacus elit, sed convallis quam ornare mollis. Curabitur orci felis, maximus interdum tempor eu, luctus sit amet massa.
-
 ### Data description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae blandit pellentesque, lorem tellus venenatis diam, in tempor quam nulla quis arcu. Etiam viverra quam sed tellus facilisis lacinia. In venenatis blandit augue, sit amet fermentum ante euismod finibus. Proin nec tortor sapien. Sed ac lacus rhoncus, rhoncus nisi eu, condimentum dui. Aenean a tellus lacinia, sodales odio at, maximus ex. Nulla tempor tempus purus nec vulputate. Fusce lectus magna, lobortis vitae dictum vel, euismod et odio. Donec et urna vitae tellus pulvinar auctor ac sit amet sem. Phasellus vel quam rhoncus, viverra metus ut, cursus diam. Aliquam commodo lacus elit, sed convallis quam ornare mollis. Curabitur orci felis, maximus interdum tempor eu, luctus sit amet massa.
+ACME has its own HCM system. The filling of information is done by human resources analysts, but the system is not yet mature enough to validate formatting, for example.
+Despite having a multi-dimensional modeling, our HCM developer brought the data in a single file without any kind of treatment. However, in this file there is all the data necessary to be able to create the dashboard as requested by the human resources director. Maybe yes, maybe not, you can find other files which can help you.
 
 ### Delivery guidelines
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae blandit pellentesque, lorem tellus venenatis diam, in tempor quam nulla quis arcu. Etiam viverra quam sed tellus facilisis lacinia. In venenatis blandit augue, sit amet fermentum ante euismod finibus. Proin nec tortor sapien. Sed ac lacus rhoncus, rhoncus nisi eu, condimentum dui. Aenean a tellus lacinia, sodales odio at, maximus ex. Nulla tempor tempus purus nec vulputate. Fusce lectus magna, lobortis vitae dictum vel, euismod et odio. Donec et urna vitae tellus pulvinar auctor ac sit amet sem. Phasellus vel quam rhoncus, viverra metus ut, cursus diam. Aliquam commodo lacus elit, sed convallis quam ornare mollis. Curabitur orci felis, maximus interdum tempor eu, luctus sit amet massa.
+#### Deliverable 01 | Data Modeling
+This work should follow the best practices for Business Intelligence. You can create a diagram to show us. 
+- Which tips will you suggest us to improve our data model?
+
+**You can create a diagram using [Diagrams](https://app.diagrams.net/) by Google.**
+
+#### Deliverable 02 | Power BI
+You can do and, we want that:
+- Get, Transform and Relate Data;
+    - Multi-dimension 
+- Create Measures align with Requirements;
+- Visualizations align with Requirements; 
+
+Extra Miles:
+- Conversion from Euro to Dollar;
+- Different Visualization Techniques/Visuals Exploration;
+- Report design based on Storytelling. 
+
+## Tips
+- [Country Side Info](http://www.countrysideinfo.co.uk/simpsons.htm)
+- 
 
 ## Authors
 | Name | E-mail |
@@ -50,4 +68,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum, nisi vitae
 
 ## Repository
 - [Datasetchallenge](https://github.com/arthurroco/datasetchallange)
-
