@@ -1,4 +1,4 @@
-# BI4ALL | Turning Data Into Insights
+# Turning Data Into Insights
 
 ## Introduction 
 The CSV revolves around a company called Acme Corporation and the core dataset contains names, date of birth, gender, background education, marital status, date of hire, reasons for termination, department, whether they are active or terminated, position title, pay rate, and satisfaction score.
@@ -63,8 +63,7 @@ Extra Miles:
 ## Authors
 | Name | E-mail |
 |----------|--------|
-| Arthur Vieira | avieira@bi4all.pt |
-| Guilherme Reis | greis@bi4all.pt |
+| Arthur Vieira | arthurroco@gmail.com |
 
 ## Repository
 - [Datasetchallenge](https://github.com/arthurroco/datasetchallange)
