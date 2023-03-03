@@ -1,7 +1,7 @@
 # Turning Data Into Insights
 
 ## Introduction 
-The CSV revolves around a company called Acme Corporation and the core dataset contains names, date of birth, gender, background education, marital status, date of hire, reasons for termination, department, whether they are active or terminated, position title, pay rate, and satisfaction score.
+The dataset (Excel file or Tableau files or .sql files) in database folder revolves around a company called Acme Corporation which contains names, date of birth, gender, background education, marital status, date of hire, reasons for termination, department, whether they are active or terminated, position title, pay rate, and satisfaction score.
 We've included some open-ended questions that you can explore and try to address through creating Power BI visualizations, like:
 - Is there any relationship between which department a person works for their satisfaction score?
 - What is the overall diversity profile of the organization?
@@ -11,7 +11,8 @@ We've included some open-ended questions that you can explore and try to address
 **Good luck and enjoy the learning!**
 
 ## Prerequisites
-- [Power BI Developer](https://www.microsoft.com/store/productId/9NTXR16HNW1T)
+- [Power BI Developer](https://www.microsoft.com/store/productId/9NTXR16HNW1T) or
+- [Tableau Desktop](https://www.tableau.com/products/desktop)
 
 ## About the Challenge
 ### Scope
@@ -20,7 +21,6 @@ The director of the human resources area wants to have visibility on the company
 - Salary range
 - Satisfaction rating/grade
 - Hiring date
-- Department
 
 In addition to the overall point of view, he/she wants to view these same numbers by:
 - Gender
@@ -65,5 +65,10 @@ Extra Miles:
 |----------|--------|
 | Arthur Vieira | arthurroco@gmail.com |
 
-## Repository
-- [Datasetchallenge](https://github.com/arthurroco/datasetchallange)
+## Next Releases
+    Not necessarily in this order:
+
+1. I wanna share some dashboards as samples using the most used BI IDE such as Tableau, PowerBI, and Qlik.
+2. In a near future, I wanna share these dataset on AWS Cloud envirorment in Redshift and AWS RDS.
+3. I am going to evaluate rating grade for Scients can be anwser which employee could leave the company.
+
