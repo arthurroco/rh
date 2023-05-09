@@ -15,15 +15,17 @@ Acneem Corporation is an international company presents in many countries around
 - Don't forget about the laws around data protection.
 
 ## About the challenge
-I gave some interests tips of Luísa Antónia Anjo de Jesus. You was hire as an important piece of IT to help Human Resource Department to identify some problems and gaps. Here are some questions that Mrs. Luísa Antónia Anjo de Jesus wants to know:
+I gave some interests tips of Luísa Antónia Anjo de Jesus. You was hired as an important piece of IT to help Human Resource Department to identify some problems and gaps. Here are some questions that Mrs. Luísa Antónia Anjo de Jesus wants to know:
 
-1- How many departments are there? 
-2- How many headcount are in which department?
-3- How is the distributions between males and females?
-4- She knows there was an internal survey asking about satisfaction and other important questions. Is there any possibility of knowing before the announcement if any employee will ask to be fired?
-5- Is there any way to identify about gender identity? If yes, is it possible to show how works the distribution across the company?
-6- Is there some department promoting prejudice, sexism and/or racism?
-7- Are there other ways to show how we can improve and promote diversity? Are there global KPI which could be used?
+1. How many departments are there?
+2. How many headcount are in which department?
+3. How is the distributions between males and females?
+4. She knows there was an internal survey asking about satisfaction and other important questions. Is there any possibility of knowing before the announcement if any employee will ask to be fired?
+5. Is there any way to identify about gender identity? If yes, is it possible to show how works the distribution across the company?
+6. Is there some department promoting prejudice, sexism and/or racism?
+7. Are there other ways to show how we can improve and promote diversity? Are there global KPI which could be used?
+
+As a BI professional, you can show that she wants as dashboards. As Data Scientist you are able to show some important trends like topic #6.
 
 ## Database
 Now, you will find dataset in MySQL, Excel, and Tableau.
@@ -31,13 +33,13 @@ Now, you will find dataset in MySQL, Excel, and Tableau.
 ## Next releases
 Not necessarily in this order:
 ### Database
-1- AWS RDS
-2- AWS Redshift
+1. AWS RDS
+2. AWS Redshift
 
 ### Dashboard
-1- Qlik Sense
-2- AWS QuickSight
-3- PowerBI
+1. Qlik Sense
+2. AWS QuickSight
+3. PowerBI
 
 **Good luck and enjoy the learning!**
 
