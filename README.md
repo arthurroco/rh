@@ -51,6 +51,6 @@ Not necessarily in this order:
 - [Country Side Info](http://www.countrysideinfo.co.uk/simpsons.htm)
 
 ## Authors
-| Name | E-mail |
+| Name | E-mail | 
 |----------|--------|
 | Arthur Vieira | arthurroco@gmail.com |
